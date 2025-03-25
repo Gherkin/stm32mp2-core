@@ -1,0 +1,218 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "813e526e-e1d2-4e9c-a6a0-fffaeafa7567")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 146.05 72.39)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1466080c-8503-4dd6-a323-678d871ef6d8")
+		(property "Sheetname" "STM32MP25_PAGE_2"
+			(at 146.05 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32mp25-pg2.kicad_sch"
+			(at 146.05 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32mp2-core"
+				(path "/5f8e630b-79db-437a-bc04-3ab5a18328d4/aee8d34b-63ae-4bb6-b2c4-42243784d1c3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 118.11)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "285d1398-6964-439f-a5a4-f735f6183f29")
+		(property "Sheetname" "STM32MP25_PAGE_5"
+			(at 160.02 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32mp25-pg5.kicad_sch"
+			(at 160.02 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32mp2-core"
+				(path "/5f8e630b-79db-437a-bc04-3ab5a18328d4/aee8d34b-63ae-4bb6-b2c4-42243784d1c3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 110.49)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c4d63f4-7158-4df7-ae5e-00b2ee9a1fe7")
+		(property "Sheetname" "STM32MP25_PAGE_4"
+			(at 109.22 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32mp25-pg4.kicad_sch"
+			(at 109.22 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32mp2-core"
+				(path "/5f8e630b-79db-437a-bc04-3ab5a18328d4/aee8d34b-63ae-4bb6-b2c4-42243784d1c3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 63.5)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9d62c7d-959a-4010-a4f6-400365d5d1c6")
+		(property "Sheetname" "STM32MP25_PAGE_1"
+			(at 87.63 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32mp25-pg1.kicad_sch"
+			(at 87.63 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32mp2-core"
+				(path "/5f8e630b-79db-437a-bc04-3ab5a18328d4/aee8d34b-63ae-4bb6-b2c4-42243784d1c3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 76.2)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed1afb4f-7e56-4dac-aada-8f494406b17a")
+		(property "Sheetname" "STM32MP25_PAGE_3"
+			(at 193.04 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32mp25-pg3.kicad_sch"
+			(at 193.04 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32mp2-core"
+				(path "/5f8e630b-79db-437a-bc04-3ab5a18328d4/aee8d34b-63ae-4bb6-b2c4-42243784d1c3"
+					(page "5")
+				)
+			)
+		)
+	)
+)
