@@ -5,6 +5,19 @@
 	(uuid "5f8e630b-79db-437a-bc04-3ab5a18328d4")
 	(paper "A4")
 	(lib_symbols)
+	(text "ref schema"
+		(exclude_from_sim no)
+		(at 56.896 186.436 0)
+		(effects
+			(font
+				(size 10 10)
+				(thickness 2)
+				(bold yes)
+			)
+			(href "file://mb1605-mp257f-c01-schematic.pdf")
+		)
+		(uuid "f4674d63-7a6a-4c25-b7cd-4a81cbdb8f59")
+	)
 	(sheet
 		(at 121.92 60.96)
 		(size 26.67 25.4)
