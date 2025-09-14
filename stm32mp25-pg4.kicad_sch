@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TFBGA436_STM"
+			(property "Footprint" "STM32MP257FAI3:TFBGA436_STM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9308,7 +9308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TFBGA436_STM"
+		(property "Footprint" "STM32MP257FAI3:TFBGA436_STM"
 			(at 165.1 80.01 0)
 			(effects
 				(font

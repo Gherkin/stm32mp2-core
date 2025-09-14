@@ -5,6 +5,73 @@
 	(uuid "813e526e-e1d2-4e9c-a6a0-fffaeafa7567")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 179.07 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76863707-f52c-465a-8163-6c84bd69a9a6")
+	)
+	(bus
+		(pts
+			(xy 179.07 52.07) (xy 194.31 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10aa1a12-3f87-4668-ba7d-087a01a4b8f9")
+	)
+	(bus
+		(pts
+			(xy 179.07 76.2) (xy 179.07 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2696d703-8b78-4dd1-be55-c275a4dc88cd")
+	)
+	(bus
+		(pts
+			(xy 179.07 52.07) (xy 166.37 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777e8a10-d408-4ff4-aa3f-d588c5c4739d")
+	)
+	(bus
+		(pts
+			(xy 166.37 76.2) (xy 179.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c66ca9-7c7f-4932-a829-459ac0aa50ed")
+	)
+	(label "DDR{DDR}"
+		(at 184.15 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2333d140-7361-4630-a47a-a66d65ce4455")
+	)
+	(hierarchical_label "DDR"
+		(shape bidirectional)
+		(at 194.31 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc593663-fa09-4d79-94bf-11a75db63090")
+	)
 	(sheet
 		(at 146.05 72.39)
 		(size 20.32 20.32)
@@ -37,6 +104,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DDR" bidirectional
+			(at 166.37 76.2 0)
+			(uuid "1929550a-4fed-43bb-a133-5c737d63eb62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LVDS1" output
+			(at 166.37 80.01 0)
+			(uuid "ae2f66e4-db1f-4833-b48f-2a9df39377c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LVDS2" output
+			(at 166.37 82.55 0)
+			(uuid "348f290c-4945-4ebd-824d-64f31d940390")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RST#" input
+			(at 166.37 85.09 0)
+			(uuid "7b05694c-dfb9-476e-9dda-dd56044c50f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -132,7 +239,7 @@
 		)
 	)
 	(sheet
-		(at 87.63 63.5)
+		(at 146.05 43.18)
 		(size 20.32 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +255,7 @@
 		)
 		(uuid "b9d62c7d-959a-4010-a4f6-400365d5d1c6")
 		(property "Sheetname" "STM32MP25_PAGE_1"
-			(at 87.63 62.7884 0)
+			(at 146.05 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,12 +264,52 @@
 			)
 		)
 		(property "Sheetfile" "stm32mp25-pg1.kicad_sch"
-			(at 87.63 84.4046 0)
+			(at 146.05 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BOOT" input
+			(at 166.37 46.99 0)
+			(uuid "2859ff62-474f-49d2-bf73-921843bd579b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CSI" bidirectional
+			(at 166.37 49.53 0)
+			(uuid "99be6bf5-2240-4778-a67d-16c16de4c0e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDR" bidirectional
+			(at 166.37 52.07 0)
+			(uuid "41ef2b1b-cfbe-435b-9140-ae3b8b85a919")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG" bidirectional
+			(at 166.37 57.15 0)
+			(uuid "8f7c34f1-0b0e-4f8b-b67b-11b802ceca19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -205,6 +352,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "EMMC" bidirectional
+			(at 213.36 80.01 0)
+			(uuid "518a525b-6bc6-4c20-9d14-8d727d045afd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MMC" bidirectional
+			(at 213.36 82.55 0)
+			(uuid "255927f2-6c1a-4052-8bb0-21d63938d8e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

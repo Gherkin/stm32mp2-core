@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TFBGA436_STM"
+			(property "Footprint" "STM32MP257FAI3:TFBGA436_STM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8286,8 +8286,9 @@
 	)
 	(bus_alias "DDR"
 		(members "DQ0_[0..7]" "DQ1_[0..7]" "DQ2_[0..7]" "DQ3_[0..7]" "DQS0-" "DQS0+"
-			"DQS1-" "DQS1+" "DQS2-" "DQS2+" "DQS3-" "DQS3+" "ZQ" "A0_[0..7]" "A1_[0..7]"
-			"A2_[0..7]" "A3_[0..7]" "DQM0" "DQM1" "DQM2" "DQM3" "RESET#"
+			"DQS1-" "DQS1+" "DQS2-" "DQS2+" "DQS3-" "DQS3+" "ZQ0" "RESET#" "CAA[0..5]"
+			"CAB[0..5]" "CSA0" "CSA1" "CSB0" "CSB1" "CLKA+" "CLKA-" "CLKB+" "CLKB-"
+			"CLKEA+" "CLKEA-" "CLKEB+" "CLKEB-" "DMIA0" "DMIA1" "DMIB0" "DMIB1" "ZQ1"
 		)
 	)
 	(bus_alias "DSI"
@@ -11256,7 +11257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TFBGA436_STM"
+		(property "Footprint" "STM32MP257FAI3:TFBGA436_STM"
 			(at 181.61 92.71 0)
 			(effects
 				(font

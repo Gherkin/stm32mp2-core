@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TFBGA436_STM"
+			(property "Footprint" "STM32MP257FAI3:TFBGA436_STM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8291,15 +8291,6 @@
 		(members "TDI" "TDO" "TCK" "TMS" "TRST#")
 	)
 	(bus_entry
-		(at 280.67 144.78)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00fa57ac-1fbc-4822-b79c-698d494524bc")
-	)
-	(bus_entry
 		(at 283.21 167.64)
 		(size -2.54 2.54)
 		(stroke
@@ -8426,15 +8417,6 @@
 		(uuid "5350fbf7-0727-4d80-b791-5fe8d24c0e8e")
 	)
 	(bus_entry
-		(at 280.67 154.94)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59b3a912-4bcf-49d2-a418-3950dd67cc57")
-	)
-	(bus_entry
 		(at 280.67 111.76)
 		(size 2.54 -2.54)
 		(stroke
@@ -8543,24 +8525,6 @@
 		(uuid "81889dc9-74c3-42d4-99bb-2758627ad2a0")
 	)
 	(bus_entry
-		(at 280.67 147.32)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "833046ed-c618-4a16-9010-77b558f748b8")
-	)
-	(bus_entry
-		(at 280.67 149.86)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "837f1585-f324-4245-8e32-37799e758169")
-	)
-	(bus_entry
 		(at 283.21 182.88)
 		(size 2.54 2.54)
 		(stroke
@@ -8586,15 +8550,6 @@
 			(type default)
 		)
 		(uuid "8a4008de-583d-4b48-9a7d-d79700dc1066")
-	)
-	(bus_entry
-		(at 280.67 157.48)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cea5964-7bbe-405a-8888-bc2adb50497b")
 	)
 	(bus_entry
 		(at 283.21 160.02)
@@ -8696,15 +8651,6 @@
 		(uuid "efb229e4-f690-45fe-9a60-8e27b0a4f9fc")
 	)
 	(bus_entry
-		(at 280.67 160.02)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f10a734c-2548-4d38-af5d-e97b96faeaff")
-	)
-	(bus_entry
 		(at 280.67 137.16)
 		(size 2.54 -2.54)
 		(stroke
@@ -8712,15 +8658,6 @@
 			(type default)
 		)
 		(uuid "f4b56ce8-6e00-4c6c-a99a-a0eac5ef342a")
-	)
-	(bus_entry
-		(at 280.67 152.4)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f56eb0a0-a674-4c6e-910e-6a871263cc74")
 	)
 	(bus_entry
 		(at 280.67 121.92)
@@ -8829,16 +8766,6 @@
 		)
 		(uuid "124dea6a-f9ef-45f4-b5ec-dabcf26283ac")
 	)
-	(bus
-		(pts
-			(xy 283.21 154.94) (xy 283.21 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "167584ac-6a70-4913-b1b9-ab99a12fcb6f")
-	)
 	(wire
 		(pts
 			(xy 242.57 127) (xy 280.67 127)
@@ -8869,16 +8796,6 @@
 		)
 		(uuid "1c240ae3-2e13-492a-8bbd-4368a5ca3d3e")
 	)
-	(bus
-		(pts
-			(xy 283.21 152.4) (xy 283.21 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ee607ac-0cfd-4d53-8a6d-bd301357c619")
-	)
 	(wire
 		(pts
 			(xy 242.57 177.8) (xy 280.67 177.8)
@@ -8888,16 +8805,6 @@
 			(type default)
 		)
 		(uuid "20360e9c-4fe6-4afd-a3fa-7df8057313f1")
-	)
-	(bus
-		(pts
-			(xy 283.21 147.32) (xy 283.21 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22501daf-5524-4da7-91fb-23fc84dc3f3a")
 	)
 	(wire
 		(pts
@@ -8959,16 +8866,6 @@
 		)
 		(uuid "2b037efd-8e9e-4be5-8121-5d207a1c711e")
 	)
-	(bus
-		(pts
-			(xy 283.21 149.86) (xy 283.21 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bbbf1c5-e1b0-48b7-a437-991edda06ab1")
-	)
 	(wire
 		(pts
 			(xy 123.19 93.98) (xy 161.29 93.98)
@@ -8978,36 +8875,6 @@
 			(type default)
 		)
 		(uuid "31dba332-4010-49c7-a4b0-7b294262fe9c")
-	)
-	(bus
-		(pts
-			(xy 283.21 144.78) (xy 283.21 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3364fc90-f2d5-476a-a14b-13ac0c01ad24")
-	)
-	(wire
-		(pts
-			(xy 242.57 154.94) (xy 280.67 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34e42e62-71a8-4a13-8412-d301d64c98b2")
-	)
-	(wire
-		(pts
-			(xy 242.57 157.48) (xy 280.67 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3776b86b-2910-4cbd-9c6f-f9a2a19f0442")
 	)
 	(bus
 		(pts
@@ -9229,16 +9096,6 @@
 		)
 		(uuid "65b77554-016c-4213-9528-cf6025812533")
 	)
-	(wire
-		(pts
-			(xy 242.57 144.78) (xy 280.67 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "668a94f8-422f-472c-98be-be4af060fbb3")
-	)
 	(bus
 		(pts
 			(xy 120.65 165.1) (xy 120.65 162.56)
@@ -9248,16 +9105,6 @@
 			(type default)
 		)
 		(uuid "687dbe9f-6b86-48a7-bccb-af148f7695c3")
-	)
-	(wire
-		(pts
-			(xy 242.57 149.86) (xy 280.67 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a443929-c28a-4694-8636-fef88a4c23ee")
 	)
 	(bus
 		(pts
@@ -9331,16 +9178,6 @@
 	)
 	(bus
 		(pts
-			(xy 283.21 160.02) (xy 283.21 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7edd8511-ed68-493f-ad36-f0d5e9186b3c")
-	)
-	(bus
-		(pts
 			(xy 283.21 91.44) (xy 283.21 88.9)
 		)
 		(stroke
@@ -9408,16 +9245,6 @@
 			(type default)
 		)
 		(uuid "90381b96-128b-499e-88b2-cb9852537d56")
-	)
-	(bus
-		(pts
-			(xy 283.21 157.48) (xy 283.21 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95071556-1e5d-409d-a9b8-db9ee10c1bbf")
 	)
 	(wire
 		(pts
@@ -9561,7 +9388,7 @@
 	)
 	(bus
 		(pts
-			(xy 283.21 142.24) (xy 283.21 139.7)
+			(xy 283.21 139.7) (xy 283.21 160.02)
 		)
 		(stroke
 			(width 0)
@@ -9731,16 +9558,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 147.32) (xy 280.67 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f42732e7-46b1-4a36-8670-6231be8c4dc4")
-	)
-	(wire
-		(pts
 			(xy 123.19 162.56) (xy 161.29 162.56)
 		)
 		(stroke
@@ -9769,16 +9586,6 @@
 		)
 		(uuid "f6798d8d-7e04-4f0d-a90a-81ba30c296b6")
 	)
-	(wire
-		(pts
-			(xy 242.57 152.4) (xy 280.67 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9700d5e-1377-4f41-9f3d-5e83213b6428")
-	)
 	(bus
 		(pts
 			(xy 120.65 152.4) (xy 120.65 149.86)
@@ -9788,16 +9595,6 @@
 			(type default)
 		)
 		(uuid "f9f3f711-0d47-4e04-9f4b-e6997fbf1b96")
-	)
-	(wire
-		(pts
-			(xy 242.57 160.02) (xy 280.67 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa956e4f-eee0-4bf9-9908-ef2bd5181324")
 	)
 	(bus
 		(pts
@@ -9819,7 +9616,7 @@
 		)
 		(uuid "fe71bfc7-d67d-44e2-9643-d8e1edfb5e5e")
 	)
-	(label "DDR.A2_3"
+	(label "DDR.CSB1"
 		(at 242.57 132.08 0)
 		(effects
 			(font
@@ -9839,17 +9636,7 @@
 		)
 		(uuid "12f7d831-8ecf-40aa-a4ea-8997e7907949")
 	)
-	(label "DDR.A1_6"
-		(at 242.57 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "132d2c7e-9a1d-4449-ac53-6cc4b0f60310")
-	)
-	(label "DDR.A0_5"
+	(label "DDR.CLKA-"
 		(at 242.57 96.52 0)
 		(effects
 			(font
@@ -9859,7 +9646,7 @@
 		)
 		(uuid "1379c884-9ee8-43a7-b895-1c4d705fcd11")
 	)
-	(label "DDR.A0_4"
+	(label "DDR.CLKA+"
 		(at 242.57 93.98 0)
 		(effects
 			(font
@@ -9869,7 +9656,7 @@
 		)
 		(uuid "1bc7d3ac-5138-42f4-97e7-e8bc4134f883")
 	)
-	(label "DDR.A0_2"
+	(label "DDE.CAA0"
 		(at 242.57 88.9 0)
 		(effects
 			(font
@@ -9899,7 +9686,7 @@
 		)
 		(uuid "27b27e63-6539-4b1e-8ec2-4ec838694108")
 	)
-	(label "DDR.A1_4"
+	(label "DDR.CLKEB0"
 		(at 242.57 114.3 0)
 		(effects
 			(font
@@ -9919,7 +9706,7 @@
 		)
 		(uuid "302111ca-7bc2-4b69-9f0d-c6e794e22a1b")
 	)
-	(label "DDR.A0_3"
+	(label "DDE.CAA1"
 		(at 242.57 91.44 0)
 		(effects
 			(font
@@ -9949,25 +9736,15 @@
 		)
 		(uuid "394d5fba-380b-4724-bea3-57c45ab48826")
 	)
-	(label "DDR.A1_7"
-		(at 242.57 121.92 0)
+	(label "DDR.CAB3"
+		(at 242.57 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3e3a1297-f073-4a4a-aed0-549d9e7a467f")
-	)
-	(label "DDR.A1_2"
-		(at 242.57 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45d02387-6680-4ff6-a4b7-730473fc8d46")
+		(uuid "44f62c32-9aa2-478c-a43a-5e5918c5e976")
 	)
 	(label "JTAG.TRST#"
 		(at 161.29 104.14 180)
@@ -9979,17 +9756,27 @@
 		)
 		(uuid "45fbb7b9-11d5-4045-a04c-77040236ac58")
 	)
-	(label "DDR.A3_4"
-		(at 242.57 154.94 0)
+	(label "DDR.CAB5"
+		(at 242.57 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "52693fbf-2dd1-43f8-b1fc-ae02cd51ea50")
+		(uuid "5c2972db-a72b-4083-a42c-f546364c7083")
 	)
-	(label "DDR.DQM2"
+	(label "DDR.CAB0"
+		(at 242.57 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e85f655-0d6d-469e-a197-60279c0270d3")
+	)
+	(label "DDR.DMIB0"
 		(at 242.57 167.64 0)
 		(effects
 			(font
@@ -9999,7 +9786,7 @@
 		)
 		(uuid "601cae8e-6d84-4a8c-95c1-b2d5516708a7")
 	)
-	(label "DDR.A1_5"
+	(label "DDR.CLKEB1"
 		(at 242.57 116.84 0)
 		(effects
 			(font
@@ -10009,7 +9796,7 @@
 		)
 		(uuid "65ae097d-c756-4b0a-ab91-cf69fa99efd2")
 	)
-	(label "DDR.A0_7"
+	(label "DDR.CSA1"
 		(at 242.57 101.6 0)
 		(effects
 			(font
@@ -10029,7 +9816,7 @@
 		)
 		(uuid "731d7ca4-add5-4fae-9e3d-6dba8706ee19")
 	)
-	(label "DDR.A0_1"
+	(label "DDR.CLKEA1"
 		(at 242.57 86.36 0)
 		(effects
 			(font
@@ -10049,27 +9836,7 @@
 		)
 		(uuid "768f6895-8f18-4448-9dea-5adf87c89873")
 	)
-	(label "DDR.A3_0"
-		(at 242.57 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79f17d2f-94aa-4a47-ac59-f21a78a4c1ff")
-	)
-	(label "DDR.A3_6"
-		(at 242.57 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b78a6f9-d482-4699-a7db-98afea1602b7")
-	)
-	(label "DDR.A2_1"
+	(label "DDR.CLKB-"
 		(at 242.57 127 0)
 		(effects
 			(font
@@ -10079,7 +9846,7 @@
 		)
 		(uuid "7ca99684-9c1a-45cb-9e2e-3df336859456")
 	)
-	(label "DDR.A2_2"
+	(label "DDR.CSB0"
 		(at 242.57 129.54 0)
 		(effects
 			(font
@@ -10088,6 +9855,16 @@
 			(justify left bottom)
 		)
 		(uuid "86a5e1b5-8e78-43ba-b435-5921d1a6fae9")
+	)
+	(label "DDR.CAB2"
+		(at 242.57 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86b9416c-1fc8-4424-8838-08942cd03886")
 	)
 	(label "JTAG{JTAG}"
 		(at 285.75 172.72 0)
@@ -10099,7 +9876,7 @@
 		)
 		(uuid "90f5fb17-183a-4128-9572-da65c8b73753")
 	)
-	(label "DDR.DQM0"
+	(label "DDR.DMIA0"
 		(at 242.57 162.56 0)
 		(effects
 			(font
@@ -10139,25 +9916,35 @@
 		)
 		(uuid "9be5a6e3-9e59-4870-8e1d-42e820fec354")
 	)
-	(label "DDR.A3_5"
-		(at 242.57 157.48 0)
+	(label "DDR.CAB1"
+		(at 242.57 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "abbd3def-55d6-4dc5-a130-0caf814dd60f")
+		(uuid "9c847638-7494-4c24-8491-feb3b9fa5997")
 	)
-	(label "DDR.A2_4"
-		(at 242.57 134.62 0)
+	(label "DDR.CAA3"
+		(at 242.57 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "af63d58f-e41a-4a76-a151-d689783c17ea")
+		(uuid "af3da73b-a1ae-44ab-96f1-b734cd50e7bd")
+	)
+	(label "DDR.CAB4"
+		(at 242.57 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b02a8e41-35d4-4692-ac10-1f7296819309")
 	)
 	(label "BOOT[0..3]"
 		(at 118.11 83.82 180)
@@ -10169,17 +9956,7 @@
 		)
 		(uuid "b370ad4c-ba5f-40f1-9331-63c50b7355f3")
 	)
-	(label "DDR.A3_3"
-		(at 242.57 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b50b0e73-a0bc-470a-9739-679922c694f9")
-	)
-	(label "DDR.DQM3"
+	(label "DDR.DMIB1"
 		(at 242.57 170.18 0)
 		(effects
 			(font
@@ -10189,17 +9966,17 @@
 		)
 		(uuid "b84f30f2-a5df-4821-9b05-d06bc11c241a")
 	)
-	(label "DDR.A2_0"
-		(at 242.57 124.46 0)
+	(label "DDR.CAA2"
+		(at 242.57 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b96c4e27-c5d1-43dc-bb80-22040d474629")
+		(uuid "ba3d6ba1-f5c9-432c-ace6-dddd87619fe1")
 	)
-	(label "DDR.A0_6"
+	(label "DDR.CSA0"
 		(at 242.57 99.06 0)
 		(effects
 			(font
@@ -10209,15 +9986,15 @@
 		)
 		(uuid "bcece8b4-b90f-40f3-bc4c-8e3ca7529a30")
 	)
-	(label "DDR.A3_2"
-		(at 242.57 149.86 0)
+	(label "DDR.CLKB+"
+		(at 242.57 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c585a85f-f9e2-4ca8-ab4b-709c6ad5d185")
+		(uuid "c5526d46-6481-48ab-8e18-3575a06204d9")
 	)
 	(label "JTAG.TCK"
 		(at 313.69 182.88 180)
@@ -10249,36 +10026,6 @@
 		)
 		(uuid "ccaf8c2a-218d-469e-b302-77b3a738067d")
 	)
-	(label "DDR.A2_7"
-		(at 242.57 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d387e724-46fe-430d-9865-25d8184e0647")
-	)
-	(label "DDR.A2_5"
-		(at 242.57 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d40405b6-a1df-4770-8a3b-75c655ce5319")
-	)
-	(label "DDR.A2_6"
-		(at 242.57 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e08bdea5-d95b-467e-a61f-8313fb48d004")
-	)
 	(label "BOOT3"
 		(at 161.29 93.98 180)
 		(effects
@@ -10289,15 +10036,25 @@
 		)
 		(uuid "e37230dc-8abc-4de2-b7ce-ccd24aa10a8e")
 	)
-	(label "DDR.A1_0"
-		(at 242.57 104.14 0)
+	(label "DDR.CAA5"
+		(at 242.57 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e4697d25-658b-460c-a106-681a9c59a42d")
+		(uuid "e3920b8c-ba5b-4e56-a341-66959ac2ec95")
+	)
+	(label "DDR.CAA4"
+		(at 242.57 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea77eb5f-0c1f-41bf-8ec0-94a5768fd577")
 	)
 	(label "JTAG.TDI"
 		(at 161.29 101.6 180)
@@ -10319,16 +10076,6 @@
 		)
 		(uuid "ef2ea087-02d6-4564-b2d0-5a1eff60a0c3")
 	)
-	(label "DDR.A3_1"
-		(at 242.57 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f47a6536-4a46-4bcf-9afb-1ca8cd6d2892")
-	)
 	(label "JTAG.TRST#"
 		(at 313.69 185.42 180)
 		(effects
@@ -10349,17 +10096,7 @@
 		)
 		(uuid "f5bdf2e4-82cb-4ed0-b227-d12b398ab3b8")
 	)
-	(label "DDR.A1_3"
-		(at 242.57 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f65e0b9c-3eeb-488f-b572-389c737a0afb")
-	)
-	(label "DDR.A0_0"
+	(label "DDR.CLKEA0"
 		(at 242.57 83.82 0)
 		(effects
 			(font
@@ -10369,7 +10106,7 @@
 		)
 		(uuid "f6bf9a73-513c-47e5-9328-2645272cace1")
 	)
-	(label "DDR.DQM1"
+	(label "DDR.DMIA1"
 		(at 242.57 165.1 0)
 		(effects
 			(font
@@ -10378,16 +10115,6 @@
 			(justify left bottom)
 		)
 		(uuid "f91b6a59-ddbf-48c2-8e35-df32013f0f4c")
-	)
-	(label "DDR.A1_1"
-		(at 242.57 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa323c0b-40cb-4496-82f8-072d61bfe312")
 	)
 	(label "BOOT0"
 		(at 161.29 86.36 180)
@@ -10469,7 +10196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TFBGA436_STM"
+		(property "Footprint" "STM32MP257FAI3:TFBGA436_STM"
 			(at 161.29 86.36 0)
 			(effects
 				(font

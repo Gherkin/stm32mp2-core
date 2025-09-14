@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "STM32MP257FAI3")(type "KiCad")(uri "${KIPRJMOD}/symbols - footprints/STM32MP257FAI3/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "MT53E1G32D2FW-046-IT-B")(type "KiCad")(uri "${KIPRJMOD}/symbols - footprints/MT53E1G32D2FW-046-IT-B/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "STPMIC25APQR")(type "KiCad")(uri "${KIPRJMOD}/symbols - footprints/STPMIC25APQR/KiCADv6/footprints.pretty")(options "")(descr ""))
+)

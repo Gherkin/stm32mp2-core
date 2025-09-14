@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TFBGA436_STM"
+			(property "Footprint" "STM32MP257FAI3:TFBGA436_STM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8312,7 +8312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TFBGA436_STM"
+		(property "Footprint" "STM32MP257FAI3:TFBGA436_STM"
 			(at 43.18 81.28 0)
 			(effects
 				(font
@@ -9686,7 +9686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TFBGA436_STM"
+		(property "Footprint" "STM32MP257FAI3:TFBGA436_STM"
 			(at 186.69 85.09 0)
 			(effects
 				(font
@@ -11060,7 +11060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TFBGA436_STM"
+		(property "Footprint" "STM32MP257FAI3:TFBGA436_STM"
 			(at 327.66 109.22 0)
 			(effects
 				(font
