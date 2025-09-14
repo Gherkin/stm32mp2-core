@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "STM32MP257FAI3")(type "KiCad")(uri "${KIPRJMOD}/symbols - footprints/STM32MP257FAI3/KiCADv6/2025-03-25_18-37-46.kicad_sym")(options "")(descr ""))
   (lib (name "STPMIC25APQR")(type "KiCad")(uri "${KIPRJMOD}/symbols - footprints/STPMIC25APQR/KiCADv6/2025-03-25_18-39-45.kicad_sym")(options "")(descr ""))
+  (lib (name "MT53E1G32D2FW-046-IT-B")(type "KiCad")(uri "${KIPRJMOD}/symbols - footprints/MT53E1G32D2FW-046-IT-B/KiCADv6/2025-09-14_07-48-51.kicad_sym")(options "")(descr ""))
 )

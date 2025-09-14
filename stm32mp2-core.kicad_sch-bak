@@ -19,49 +19,7 @@
 		(uuid "f4674d63-7a6a-4c25-b7cd-4a81cbdb8f59")
 	)
 	(sheet
-		(at 43.18 97.79)
-		(size 35.56 29.21)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "30a30524-32cd-4ecd-9dfd-57739ac0c796")
-		(property "Sheetname" "LPDDR4"
-			(at 43.18 97.0784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "lpddr4.kicad_sch"
-			(at 43.18 127.5846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "stm32mp2-core"
-				(path "/5f8e630b-79db-437a-bc04-3ab5a18328d4"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 121.92 45.72)
+		(at 121.92 60.96)
 		(size 26.67 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -77,7 +35,7 @@
 		)
 		(uuid "aee8d34b-63ae-4bb6-b2c4-42243784d1c3")
 		(property "Sheetname" "STM32MP25"
-			(at 121.92 45.0084 0)
+			(at 121.92 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +44,7 @@
 			)
 		)
 		(property "Sheetfile" "stm32mp25.kicad_sch"
-			(at 121.92 71.7046 0)
+			(at 121.92 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
