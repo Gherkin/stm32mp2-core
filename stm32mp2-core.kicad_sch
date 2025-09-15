@@ -184,6 +184,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 194.31 82.55)
+		(size 29.21 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d46e9433-3373-4936-9ce0-193b7ac1e032")
+		(property "Sheetname" "mmc"
+			(at 194.31 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mmc.kicad_sch"
+			(at 194.31 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32mp2-core"
+				(path "/5f8e630b-79db-437a-bc04-3ab5a18328d4"
+					(page "10")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
