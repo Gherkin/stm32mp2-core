@@ -471,6 +471,48 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "DDR_CA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR_CLK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR_CLKE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR_CS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR_DMI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR_DQ",
+        "pcb_color": "rgb(255, 2, 29)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR_ZQ",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -478,6 +520,84 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/DDR.CAA0": [
+        "DDR_CA"
+      ],
+      "/DDR.CAA1": [
+        "DDR_CA"
+      ],
+      "/DDR.CAA2": [
+        "DDR_CA"
+      ],
+      "/DDR.CAA3": [
+        "DDR_CA"
+      ],
+      "/DDR.CAA4": [
+        "DDR_CA"
+      ],
+      "/DDR.CAA5": [
+        "DDR_CA"
+      ],
+      "/DDR.CAB0": [
+        "DDR_CA"
+      ],
+      "/DDR.CAB1": [
+        "DDR_CA"
+      ],
+      "/DDR.CAB2": [
+        "DDR_CA"
+      ],
+      "/DDR.CAB3": [
+        "DDR_CA"
+      ],
+      "/DDR.CAB4": [
+        "DDR_CA"
+      ],
+      "/DDR.CAB5": [
+        "DDR_CA"
+      ],
+      "/DDR.CLKA+": [
+        "DDR_CLK"
+      ],
+      "/DDR.CLKA-": [
+        "DDR_CLK"
+      ],
+      "/DDR.CLKB+": [
+        "DDR_CLK"
+      ],
+      "/DDR.CLKB-": [
+        "DDR_CLK"
+      ],
+      "/DDR.CLKEB+": [
+        "DDR_CLKE"
+      ],
+      "/DDR.CLKEB-": [
+        "DDR_CLKE"
+      ],
+      "/DDR.CSA0": [
+        "DDR_CS"
+      ],
+      "/DDR.CSA1": [
+        "DDR_CS"
+      ],
+      "/DDR.CSB0": [
+        "DDR_CS"
+      ],
+      "/DDR.CSB1": [
+        "DDR_CS"
+      ],
+      "/DDR.DMIA0": [
+        "DDR_DMI"
+      ],
+      "/DDR.DMIA1": [
+        "DDR_DMI"
+      ],
+      "/DDR.DMIB0": [
+        "DDR_DMI"
+      ],
+      "/DDR.DMIB1": [
+        "DDR_DMI"
+      ],
       "/DDR.DQ0_0": [
         "DDR_DQ"
       ],
@@ -597,6 +717,21 @@
       ],
       "/DDR.DQS3-": [
         "DDR_DQS"
+      ],
+      "/DDR.RESET#": [
+        "DDR_ZQ"
+      ],
+      "/DDR.ZQ0": [
+        "DDR_ZQ"
+      ],
+      "/DDR.ZQ1": [
+        "DDR_ZQ"
+      ],
+      "/LPDDR4/DDR.CLKEA0": [
+        "DDR_CLKE"
+      ],
+      "/LPDDR4/DDR.CLKEA1": [
+        "DDR_CLKE"
       ]
     },
     "netclass_patterns": []
@@ -760,6 +895,10 @@
     [
       "30a30524-32cd-4ecd-9dfd-57739ac0c796",
       "LPDDR4"
+    ],
+    [
+      "0a95856c-294b-4338-bdc8-e0c703864419",
+      "PMIC"
     ]
   ],
   "text_variables": {}
